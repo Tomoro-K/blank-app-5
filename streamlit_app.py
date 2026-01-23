@@ -4,8 +4,8 @@ import datetime
 
 # --- 1. Supabase接続設定 ---
 try:
-    url = st.secrets["SUPABASE_URL"]
-    key = st.secrets["SUPABASE_KEY"]
+    url = st.secrets["https://wbxwedzdmyhvlayfobmx.supabase.co"]
+    key = st.secrets["sb_publishable_Qz2OZH2PYWoS8oUnLxaY-g_iIhCXsZg"]
 except FileNotFoundError:
     st.error("Secretsが見つかりません。Streamlit Cloudの設定を確認してください。")
     st.stop()
